@@ -21,14 +21,18 @@ The implementation will be based on:
 - TL0xx operational amplifier
 - 1% resistors
 - HV capacitors
-- an input protection ciruits
+- PTC and MOV for input surge protection
 - Trimmable resistors to tune the circuit
 
 A KiCad schematic and board is provided in this repository
 
+## Assumptions on the components
+
+I have resistors for which I do not know the voltage rating. I'll assume that they are rated for 200V each, the design aims to work on mains in Europe thus 230VAC RMS +/- 10% or a maximum peak value of 361Vpk let's say 400Vpk. I need to have, at bare minimum two resistors upfront.
+
 # Building the probe on breadbord
 
-## Testing the components
+## Testing the passive components
 
 In order to have a relatively good probe, components such as resistors, capacitors and even the operation amplifier must be characterized and selected in order to achieve best operation. 
 
@@ -38,6 +42,8 @@ For that, the resistors and capacitors are going to be measured, sorted and sele
 - The best possible ratios between the resistor voltage divisor network and the capacitor divisor network
 
 For that I use my cheap multimeter, which may not be calibrated, but offers some information anyway, and measure all the resistances and capacitors.
+
+## Testing the operational amplifier
 
 The operational amplifier are going to be checked in order to verify that I did not by rebranded inferior copies.
 
