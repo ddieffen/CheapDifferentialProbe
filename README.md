@@ -24,11 +24,26 @@ The implementation will be based on:
 - an input protection ciruits
 - Trimmable resistors to tune the circuit
 
-A KiCad schemati and board is provided in this repository
+A KiCad schematic and board is provided in this repository
 
 # Building the probe on breadbord
 
-# Testing on breadbord
+## Testing the components
+
+In order to have a relatively good probe, components such as resistors, capacitors and even the operation amplifier must be characterized and selected in order to achieve best operation. 
+
+For that, the resistors and capacitors are going to be measured, sorted and selected in order to achieve : 
+- The best possible symmetry in the circuit
+- The best possible ratios between the components
+- The best possible ratios between the resistor voltage divisor network and the capacitor divisor network
+
+For that I use my cheap multimeter, which may not be calibrated, but offers some information anyway, and measure all the resistances and capacitors.
+
+The operational amplifier are going to be checked in order to verify that I did not by rebranded inferior copies.
+
+For that I'll make a simple follower circuit and test the output against a square input.
+
+# Circuit on breadbord
 
 # Building on circuit board
 
