@@ -7,13 +7,13 @@ It can be enhanced into different versions, but the point here is to keep it che
 
 The power supply is based on a 9V battery which will provide a symetrical power supply. An instrumenation amplifier made of 3 op amps will make the differential measurement such as exmplained in Joe Smith video. In order to achieve this an OpAmp will regulate the symetry of the power supply. This idea is desribed on [Electronics Stack Exchange here](https://electronics.stackexchange.com/questions/90136/symmetrical-power-supply-circuit). In the discussion on that thread a link is provided to a personal page detailling the operation of such a circuit [Virtual Ground Circuits](https://tangentsoft.com/elec/vgrounds.html)
 
-[Image from Tangentsoft website representing the power supply](assets/vfb-opa.png)
+![Image from Tangentsoft website representing the power supply](assets/vfb-opa.png)
 
 The operational amplifier chosen is of the TL07x familly because they are easy to find and cheap. However they are low performance and one cannot expect to achieve really high bandwidths with it.
 
 The instrumentation amplifier is made as described in the video, I strongly recoment to watch it in order to have a good understanding of it's operation and performance. In the video the schematic is well explained and the operation is demonstrated though a series of tests using low voltage and mains.
 
-[Image from Joe Smith video](assets/JoeSmithSchematic.png)
+![Image from Joe Smith video](assets/JoeSmithSchematic.png)
 
 # Implementation
 
