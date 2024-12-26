@@ -1,6 +1,8 @@
 # CheapDifferentialProbe
 Plans and calculations to build a cheap differential probe for amateur measurements. This designed is based on the explanations provided by Joe Smith in his tutorial video available here : [Homemade HV Low Frequency Differential Oscilloscope Probe](https://www.youtube.com/watch?v=_OZ5Xer84eo). In order to simplify the "copy" of that design I'll expose here my implementation of it. The idea is to stay way below (20$) the price of a commercial probe (150$) with the BOM. It has a lot of implications such as low performance, but these may be enough for the amateur electronician wanting to make some simple differential measurements.
 
+While searching arrount I found this very well built probe and I'm going to take a lot of inspirations from it as well : [lbarbisch / Diff-Probe](https://github.com/lbarbisch/Diff-Probe)
+
 It can be enhanced into different versions, but the point here is to keep it cheap and accessible, otherwise you would just have to buy a commercial version and spare the hassle of assempling one.
 
 # The concept
