@@ -21,6 +21,8 @@ in order to achieve some reasonable frequency response we will use the capacitor
 
 ![compensation with capacitors](assets/216183_Fig_03.jpg)
 
+This video demonstrates how the divisor can be compensated. in our case it has to be compensated for the equivalent input capacitance of the operational amplifier [Composition network video](https://youtu.be/gU9hKdsS9-I?si=zN7f0F7PFF50GjOZ)
+
 # Implementation
 
 The implementation will be based on:
