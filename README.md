@@ -19,6 +19,8 @@ The instrumentation amplifier is made as described in the video, I strongly reco
 
 in order to achieve some reasonable frequency response we will use the capacitor compensation technique described here : [Voltage divider capacitive compensation](https://www.analog.com/en/resources/analog-dialogue/studentzone/studentzone-november-2018.html)
 
+![compensation with capacitors](assets/216183_Fig_03.jpg)
+
 # Implementation
 
 The implementation will be based on:
